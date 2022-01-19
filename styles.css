@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: azure;
+}
+
+.workspace {
+    width: fit-content;
+    margin: auto;
+}
+
+.flex-box {
+    display: flex;
+}
+
+#header {
+    font-size: 2rem;
+    margin: 1.5rem;
+    width: fit-content;
+}
+
+#todoListTable, #doneListTable {
+    margin: 1.5rem;
+    padding: 0.5rem;
+}
+
+#todoListHeader, #doneListHeader{
+    font-size: 1.5rem;
+}
+
+#copyrightElement ,#aboutElement{
+    display: inline-block;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#loremText {
+    width: 50%;
+    align-self: center;
+}
+
+.loremWorkspace {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
